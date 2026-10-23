@@ -47,8 +47,8 @@
 
 1. **Clone or Download the Repository:**
    ```bash
-   git clone https://github.com/your-username/pc-care-assistant.git
-   cd pc-care-assistant
+   git clone https://github.com/alok-kumar8765/systemcare_software
+   cd systemcare_software
    ```
 
 2. **Create a Virtual Environment (Recommended):**
