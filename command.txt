@@ -1,0 +1,38 @@
+USB drive par:
+
+E:
+cd E:\LOCAL_AI\llama
+
+Ab:
+
+llama-cli.exe -m ..\models\qwen2.5-coder-3b-instruct-q4_k_m.gguf
+
+Agar model load ho gaya aur prompt aa gaya:
+
+---
+
+Conceptually:
+
+127.0.0.1:8080
+
+Yaani sirf aapke computer par AI API.
+
+Example:
+
+E:
+cd E:\LOCAL_AI\llama
+
+llama-server.exe ^
+-m ..\models\qwen2.5-coder-3b-instruct-q4_k_m.gguf ^
+--host 127.0.0.1 ^
+--port 8080 ^
+-c 4096
+
+
+8GB RAM ke liye pehle context 4096 rakhein.
+
+Agar memory pressure aaye to:
+
+-c 2048
+
+kar sakte hain.
