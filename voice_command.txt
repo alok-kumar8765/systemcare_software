@@ -1,0 +1,19 @@
+"Check my PC health"
+
+"Check Windows updates"
+
+"Update my software"
+
+"Clean temporary files"
+
+"Clean cache"
+
+"Free disk space"
+
+"Show memory usage"
+
+"Find applications using too much memory"
+
+"Scan for viruses"
+
+"Run a full virus scan"
